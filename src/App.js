@@ -26,21 +26,6 @@ class App extends React.Component {
   }
 
   handleSubmit(event) {
-
-    // axios.get(`https://interns.bcgdvsydney.com/api/v1/key`)
-    // .then(res => {
-    //   var value = res.data.key;
-    //   this.setState({ 'key':value, loading: false });
-    //   console.log(this.state.email, this.state.name, this.state.key)
-    // }).then(console.log("handleSubmit")
-    // )
-
-    // var res = axios.get(`https://interns.bcgdvsydney.com/api/v1/key`);
-    // // this.setState({ 'key':res.data.key });
-    // console.log(this.state.email, this.state.name, res.data)
-    
-
-    // POST <base URI>/api/v1/submit?apiKey=<API_KEY></API_KEY>
     const user = {
       name: this.state.name,
       email: this.state.email
