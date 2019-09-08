@@ -8,17 +8,17 @@ In the project directory, you can run:`npm start` to start the app. This app is 
 
 Simply enter your name and email to submit the details.
 
-![user_interface](C:\Users\Simon\GitRepo\BCGDV_Intern_submission_React\images\user_interface.png)
+![user_interface](https://github.com/szymonyang/BCGDV_Intern_submission_React/blob/master/images/user_interface.png)
 
 Error message will be displayed if an incorrect format email address is given. 
 
-​	![error](C:\Users\Simon\GitRepo\BCGDV_Intern_submission_React\images\error.png)
+![error](https://github.com/szymonyang/BCGDV_Intern_submission_React/blob/master/images/error.png)
 
 ### Explanation 
 
 After the webpage is loaded and the component is mounted, `componentDidMount()`will be invoked, in which `axios.get()` will retrieve the API key for the later use.
 
-```react
+```javascript
     componentDidMount() {
       axios.get(`https://interns.bcgdvsydney.com/api/v1/key`)
       .then(res => {
@@ -33,7 +33,7 @@ After the webpage is loaded and the component is mounted, `componentDidMount()`w
 
 When `submit` button is clicked, the user's email address and name will be submitted through `POST` action with the API key. In addition, a new API key will be retrieved followed by the successful submission of the user's details.
 
-```react
+```javascript
   handleSubmit(event) {
     const user = {
       name: this.state.name,
