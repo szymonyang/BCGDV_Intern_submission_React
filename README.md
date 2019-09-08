@@ -49,7 +49,6 @@ When `submit` button is clicked, the user's email address and name will be submi
           	this.setState({ key:value, loading: false });
           	console.log("handleSubmit", this.state.email, this.state.name, this.state.key)
         })
-
       })
 ```
 
