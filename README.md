@@ -2,7 +2,7 @@
 
 ### Available Scripts
 
-In the project directory, you can run:`npm start` to start the app.
+In the project directory, you can run:`npm start` to start the app. This app is built on React.js with axios library.
 
 ### Instruction
 
